@@ -3,6 +3,8 @@
 ## Overview
 This simple calculator allows users to perform basic arithmetic operations: addition, subtraction, multiplication, and division.
 
+<img src="./resources/calc-web_screenshot" alt="Calculator Image" style="width: 100%; height: auto; max-width: 300px;" />
+
 ## Features
 - **Basic Operations**: Users can perform:
   - Addition
