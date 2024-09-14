@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design settings -->
+    <title>Simple Calculator</title> <!-- Title displayed in the browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS stylesheet -->
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" class="display" id="display" disabled>
+    <div class="calculator"> <!-- Main container for the calculator -->
+        <input type="text" class="display" id="display" disabled> <!-- Display area for calculations (read-only) -->
         <div>
-            <button class="button" onclick="appendToDisplay('7')">7</button>
-            <button class="button" onclick="appendToDisplay('8')">8</button>
-            <button class="button" onclick="appendToDisplay('9')">9</button>
-            <button class="button operator" onclick="appendToDisplay('/')">/</button>
+            <button class="button" onclick="appendToDisplay('7')">7</button> <!-- Button for number 7 -->
+            <button class="button" onclick="appendToDisplay('8')">8</button> <!-- Button for number 8 -->
+            <button class="button" onclick="appendToDisplay('9')">9</button> <!-- Button for number 9 -->
+            <button class="button operator" onclick="appendToDisplay('/')">/</button> <!-- Button for division -->
         </div>
         <div>
-            <button class="button" onclick="appendToDisplay('4')">4</button>
-            <button class="button" onclick="appendToDisplay('5')">5</button>
-            <button class="button" onclick="appendToDisplay('6')">6</button>
-            <button class="button operator" onclick="appendToDisplay('*')">*</button>
+            <button class="button" onclick="appendToDisplay('4')">4</button> <!-- Button for number 4 -->
+            <button class="button" onclick="appendToDisplay('5')">5</button> <!-- Button for number 5 -->
+            <button class="button" onclick="appendToDisplay('6')">6</button> <!-- Button for number 6 -->
+            <button class="button operator" onclick="appendToDisplay('*')">*</button> <!-- Button for multiplication -->
         </div>
         <div>
-            <button class="button" onclick="appendToDisplay('1')">1</button>
-            <button class="button" onclick="appendToDisplay('2')">2</button>
-            <button class="button" onclick="appendToDisplay('3')">3</button>
-            <button class="button operator" onclick="appendToDisplay('-')">-</button>
+            <button class="button" onclick="appendToDisplay('1')">1</button> <!-- Button for number 1 -->
+            <button class="button" onclick="appendToDisplay('2')">2</button> <!-- Button for number 2 -->
+            <button class="button" onclick="appendToDisplay('3')">3</button> <!-- Button for number 3 -->
+            <button class="button operator" onclick="appendToDisplay('-')">-</button> <!-- Button for subtraction -->
         </div>
         <div>
-            <button class="button" onclick="appendToDisplay('0')">0</button>
-            <button class="button clear" onclick="clearDisplay()">C</button>
-            <button class="button operator" onclick="calculateResult()">=</button>
-            <button class="button operator" onclick="appendToDisplay('+')">+</button>
+            <button class="button" onclick="appendToDisplay('0')">0</button> <!-- Button for number 0 -->
+            <button class="button clear" onclick="clearDisplay()">C</button> <!-- Button to clear the display -->
+            <button class="button operator" onclick="calculateResult()">=</button> <!-- Button to calculate the result -->
+            <button class="button operator" onclick="appendToDisplay('+')">+</button> <!-- Button for addition -->
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
 </body>
 </html>
